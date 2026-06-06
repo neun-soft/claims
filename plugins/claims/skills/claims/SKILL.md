@@ -74,10 +74,9 @@ user say or hear the word "falsifiable." You do the assembling behind the scenes
 
 Open warmly, with the hunch itself:
 
-> **What's something you believe about your customers, your work, or your industry that
-> you think most people get wrong?** Something you've been turning over — maybe even
-> lived through in your own flesh. Say it however it lives in your head — wild is
-> welcome.
+> **What's a strong intuition or hunch you've had in your work or industry?** Something
+> you've been turning over — maybe even lived through in your own flesh. Say it however
+> it lives in your head — wild is welcome.
 
 Then climb the rungs below, **one at a time**. After each answer, run that rung's
 **gate**. If the answer clears it, advance. If it doesn't, give the nudge and stay on
