@@ -21,9 +21,16 @@ triggers on its own.)
 
 ## Update
 
+Third-party plugins are pinned to the version you installed and do **not** auto-update by
+default. To get the latest:
+
 ```
-/plugin marketplace update neun-soft
+claude plugin update claims@neun-soft
 ```
+
+Or turn on automatic updates once: run `/plugin`, pick the `neun-soft` marketplace, and
+choose **Enable auto-update**. (Note: `/plugin marketplace update` only refreshes the
+catalog — it does not update an already-installed plugin.)
 
 ## Install (Codex)
 
