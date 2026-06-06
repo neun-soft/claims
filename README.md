@@ -25,6 +25,16 @@ triggers on its own.)
 /plugin marketplace update neun-soft
 ```
 
+## Install (Codex)
+
+Codex uses the same `SKILL.md` format. Drop the skill into your Codex skills folder,
+restart Codex, then run `/claims`:
+
+```bash
+mkdir -p ~/.codex/skills/claims
+curl -fsSL https://neunsoft.com/claims-skill.md -o ~/.codex/skills/claims/SKILL.md
+```
+
 ## Manual install (no marketplace)
 
 Copy the skill folder into your skills directory:
