@@ -28,7 +28,7 @@ triggers on its own.)
 ## Install (Codex)
 
 Codex uses the same `SKILL.md` format. Drop the skill into your Codex skills folder,
-restart Codex, then run `/claims`:
+restart Codex, then run `$claims` (Codex invokes skills with `$`, not `/`):
 
 ```bash
 mkdir -p ~/.codex/skills/claims
