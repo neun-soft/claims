@@ -1,0 +1,26 @@
+{
+  "name": "neun-soft",
+  "owner": {
+    "name": "Neunsoft",
+    "url": "https://neunsoft.com"
+  },
+  "metadata": {
+    "description": "Free Claude skills from Neunsoft.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claims",
+      "source": "./plugins/claims",
+      "description": "Turn a raw hunch into a research-backed stance you can publish: capture a falsifiable claim, find real university research, align every word to the evidence, steelman the counter-argument, and render a calm Threads post. Peer review for a one-person business.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Neunsoft",
+        "url": "https://neunsoft.com"
+      },
+      "homepage": "https://neunsoft.com/claims",
+      "license": "MIT",
+      "keywords": ["research", "writing", "content", "scientific-method", "threads"]
+    }
+  ]
+}
