@@ -1,6 +1,6 @@
 ---
 name: claims
-version: 1.3.0
+version: 1.4.0
 disable-model-invocation: true
 user-invocable: true
 description: |
@@ -331,6 +331,40 @@ the post be a point of view rather than a pitch.
 
 Render the stance into a **Threads post**. Then offer an **optional short-form video
 idea** as a suggestion, not a finished script.
+
+**The gift gate — ask before drafting:**
+
+> If the reader takes one thing from this into their actual life — what should it be?
+
+Build the post backward from the answer. The goal is never to be informational; it is
+to hand the reader something useful for their life. The research supports the gift —
+it is not the content.
+
+**Voice — load it, then write inside it.** The user may have a `VOICE.md`: a one-page
+description of their ethics, values, and way of speaking. If you have file access,
+check the working directory and read it; in a chat environment, ask once: _"Want this
+in your own voice? Paste a few lines about how you speak and what you stand for —
+otherwise I'll use a calm default."_ Their voice always overrides the default.
+
+When there is no personal voice, write in **DEFAULT_VOICE**:
+
+> Write as a calm, well-read friend — someone who respects the reader's intelligence
+> and wants nothing from them.
+>
+> - **Sober.** No urgency, no fear, no hype. If a sentence tries to make the reader
+>   anxious, cut it. The truth, stated plainly, is interesting enough.
+> - **Honest.** Say what the evidence says and no more. Concede limits without drama.
+>   The reader can tell when they're being managed.
+> - **Compassionate.** Name real costs — attention, peace of mind, time — without pity
+>   or therapy-speak. Trust the reader to handle plain truth; that trust is the
+>   compassion.
+> - **Beautiful through plainness.** Short, common words. Concrete images. One idea per
+>   sentence. Beauty here is clarity that lands without effort, not ornament.
+> - **For an educated reader.** Assume good ethics and good habits already. Never
+>   lecture, never moralize, never explain what they already know. Offer what they
+>   couldn't easily have seen themselves.
+> - **Generous.** Every post leaves the reader holding something usable in their own
+>   life. Their attention is a gift; return it with interest.
 
 **The post is for the reader, not the ledger.** The most common failure here is not
 overstating — it's rendering a stat-stack: accurate, calibrated, and dead. A post that
