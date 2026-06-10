@@ -1,6 +1,6 @@
 ---
 name: claims
-version: 1.1.0
+version: 1.1.1
 disable-model-invocation: true
 user-invocable: true
 description: |
@@ -61,21 +61,22 @@ deliberate beats, not to hand over a stack of phase outputs. The polish phase (P
 can also be re-run on demand at any time — if the user says "polish" or "re-align,"
 jump straight back into it on the current draft.
 
-**Always orient the user with a one-line progress note.** At every checkpoint — and
-whenever the user asks — give a single plain-text line that says where they are, what
-the phase does, and what's next:
+**Always orient the user with a one-line progress note — as the last line of your
+message.** At every checkpoint — and whenever the user asks — close with a single
+plain-text line that says where they are, what the phase does, and what's next:
 
 > **Phase 3/6 — Polish** (align every claim to the evidence) · next: Steelman
 
 Rules:
+- It is the **final sentence** of the checkpoint message: any "why the next phase
+  matters" prose and the go-ahead question come first, the progress line closes.
 - One line, plain text. No dots, bars, emoji, or diagrams.
 - `Phase N/6` is how the user reads progress; the one-word phase labels are
   Capture · Research · Polish · Steelman · Business · Render.
 - A ~5-word gloss in parentheses on what the current phase does; then `next: <label>`
   (flag Phase 4 as `Steelman (optional)`). On the last phase use `next: done`.
 
-Then you may add one short line on **why** the next phase matters and the go-ahead
-question. Show the progress line at every checkpoint, not just when asked.
+Show the progress line at every checkpoint, not just when asked.
 
 Keep your own voice **calm and neutral** throughout. You are a research assistant and
 an editor, not a hype machine. The user's voice is the product; yours is scaffolding.
