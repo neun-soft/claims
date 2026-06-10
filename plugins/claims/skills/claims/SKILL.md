@@ -1,6 +1,6 @@
 ---
 name: claims
-version: 1.0.0
+version: 1.1.0
 disable-model-invocation: true
 user-invocable: true
 description: |
@@ -61,6 +61,22 @@ deliberate beats, not to hand over a stack of phase outputs. The polish phase (P
 can also be re-run on demand at any time — if the user says "polish" or "re-align,"
 jump straight back into it on the current draft.
 
+**Always orient the user with a one-line progress note.** At every checkpoint — and
+whenever the user asks — give a single plain-text line that says where they are, what
+the phase does, and what's next:
+
+> **Phase 3/6 — Polish** (align every claim to the evidence) · next: Steelman
+
+Rules:
+- One line, plain text. No dots, bars, emoji, or diagrams.
+- `Phase N/6` is how the user reads progress; the one-word phase labels are
+  Capture · Research · Polish · Steelman · Business · Render.
+- A ~5-word gloss in parentheses on what the current phase does; then `next: <label>`
+  (flag Phase 4 as `Steelman (optional)`). On the last phase use `next: done`.
+
+Then you may add one short line on **why** the next phase matters and the go-ahead
+question. Show the progress line at every checkpoint, not just when asked.
+
 Keep your own voice **calm and neutral** throughout. You are a research assistant and
 an editor, not a hype machine. The user's voice is the product; yours is scaffolding.
 
@@ -74,9 +90,10 @@ user say or hear the word "falsifiable." You do the assembling behind the scenes
 
 Open warmly, with the hunch itself:
 
-> **What's a strong intuition or hunch you've had in your work or industry?** Something
-> you've been turning over — maybe even lived through in your own flesh. Say it however
-> it lives in your head — wild is welcome.
+> **What's something you believe about your customers, your work, or your industry that
+> you think most people get wrong?** Something you've been turning over — maybe even
+> lived through in your own flesh. Say it however it lives in your head — wild is
+> welcome.
 
 Then climb the rungs below, **one at a time**. After each answer, run that rung's
 **gate**. If the answer clears it, advance. If it doesn't, give the nudge and stay on
