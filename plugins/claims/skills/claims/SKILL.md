@@ -1,6 +1,6 @@
 ---
 name: claims
-version: 1.4.0
+version: 1.5.0
 disable-model-invocation: true
 user-invocable: true
 description: |
@@ -387,6 +387,30 @@ self-doubt, rhythm tricks — these are the same manipulation the calm tone exis
 avoid. Punchy is not the same as alive: "human" is reached through plainness and
 precision, not staccato aphorisms. And the user's original key words — the ones the
 hunch arrived in — survive into the final post; they are the realest material you have.
+
+**The fuel rule — the post runs on what it recommends.** Every post has an emotional
+fuel, and it is chosen at the first line, not the last. Ask the user which register
+the piece should run on (awe, curiosity, calm clarity, indignation...), then encode it
+from the opening — a register cannot be appended at the end of a post framed in a
+different one. Three consequences:
+
+- **A post must never run on the fuel it criticizes.** If the piece is about how
+  hostility is exploited, the piece itself doesn't get to use grievance, villains, or
+  us-vs-them framing — even against platforms or mechanisms. State the diagnosis as
+  plain mechanics ("the feed amplifies whatever we feed it"); facts don't need an
+  antagonist to stand.
+- **No self-proof lines.** Never have the post grade itself ("notice what this thread
+  did: it named no enemy"). If the virtue is real, it shows; if it isn't, a careful
+  reader catches the contradiction in public. Truth doesn't need to advertise.
+- **Costs stay, accusations go.** A human cost the user cares about ("you don't leave
+  the apps feeling better") survives as a compassionate, evidence-backed observation —
+  not as an indictment.
+
+_(In testing, awe was bolted onto a grievance-framed post twice and failed both times —
+the reader spends the whole post in threat-framing and the lift arrives like a window
+opened in a room already full of smoke. A "this thread named no enemy" line also nearly
+shipped on a post whose opening called platforms an exploitation farm; the user caught
+the contradiction. The fix both times: choose the fuel first, rebuild from line one.)_
 
 **Few-shot — learn the direction of these pairs.** From a real run: every line below
 was drafted by the assistant, rejected by the user, and fixed by them. Internalize the
