@@ -1,6 +1,6 @@
 ---
 name: claims
-version: 1.2.0
+version: 1.3.0
 disable-model-invocation: true
 user-invocable: true
 description: |
@@ -347,6 +347,26 @@ the core of it to a friend — or pull phrasing from how they talked in Phase 1.
 sentences become the spine; the evidence hangs underneath. Building the post from your
 own summary voice and inviting them to "add personality" afterward does not work; the
 voice can't be retrofitted.
+
+**Never perform emotion.** Fake vulnerability, dramatic one-liners, manufactured
+self-doubt, rhythm tricks — these are the same manipulation the calm tone exists to
+avoid. Punchy is not the same as alive: "human" is reached through plainness and
+precision, not staccato aphorisms. And the user's original key words — the ones the
+hunch arrived in — survive into the final post; they are the realest material you have.
+
+**Few-shot — learn the direction of these pairs.** From a real run: every line below
+was drafted by the assistant, rejected by the user, and fixed by them. Internalize the
+direction of each correction before drafting:
+
+| Drafted (rejected) | User's fix (shipped) | The lesson |
+| --- | --- | --- |
+| "That's not a mood. It's been measured. Let me show you." | "Let me explain with some research on this:" | Teach, don't dramatize. |
+| "Negativity doesn't actually work." | "Pure negativity doesn't actually spread as much." | Precision over punch — scope the verb. |
+| "Attack the out-group and shares roughly double." | "Attack the out-group, or frame it that way, and shares roughly double." | Keep the mechanism nuance; framing can carry the effect. |
+| "rage stops your thumb" | "rage stops you, it is visceral" | The user's original key word ("visceral") outranks your clever phrase. |
+| "Nobody counts the regret." | _(cut)_ | Aphorism fireworks add zero information. Cut them. |
+| "Feeling worse after scrolling isn't weakness." | "This is the product working as designed." | No therapy-speak; state the fact. |
+| "I didn't trust my own hunch on this, so I ran it through a free skill that forced me to argue against myself." | "We created a free skill for you to work with your intuition against academic research." | Never fake humility. Intuition is the asset; research is the sparring partner. |
 
 **Principle first, receipts second.** Open with the whole argument in plain human
 language — no numbers, no citations, the thing they'd say out loud. A reader who stops
