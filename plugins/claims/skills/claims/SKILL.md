@@ -1,14 +1,14 @@
 ---
 name: claims
-version: 2.0.0
+version: 2.0.1
 disable-model-invocation: true
 user-invocable: true
 description: |
-  Find out whether a hunch is actually true. Walks you from "here's my hypothesis,
+  Take a hunch through a discovery process. Walks you from "here's my hypothesis,
   however wild" through real university research, carefully aligns every claim to
-  what the evidence supports, and steelmans the counter-argument — landing on an
-  honest verdict: where you're right, where you're wrong, and to what degree. That
-  validated stance is the product. Optionally, afterward, tie it to your business and
+  what the evidence supports, and steelmans the counter-argument — discovering which
+  parts hold up, which can be sharpened, and what better claim might be hiding
+  inside. That calibrated stance is the product. Optionally, afterward, tie it to your business and
   render it as a calm Threads post (plus a short-form video idea). The scientific
   method, run on your intuition.
   EXPLICIT INVOCATION ONLY: run this skill solely when the user explicitly invokes it

@@ -1,9 +1,10 @@
 # claims — a free Claude skill by [Neunsoft](https://neunsoft.com)
 
-**The scientific method, run on your intuition.** Take a raw hunch and find out if
-it's true — pressure-tested against real university research, with every word aligned
-to what the evidence supports, landing on a verdict you can actually defend. Then,
-optionally, render it as a calm Threads post.
+**The scientific method, run on your intuition.** Take a raw hunch through a
+discovery process — pressure-tested against real university research to learn which
+parts hold up, which can be sharpened, and what better claim might be hiding inside —
+with every word aligned to what the evidence supports. Then, optionally, render it as
+a calm Threads post.
 
 This repo is also a **Claude Code plugin marketplace**, so you can install the skill in
 two commands. Read the story behind it at **https://neunsoft.com/claims**.

@@ -1,8 +1,8 @@
 # claims
 
 **The scientific method, run on your intuition.** A free [Claude](https://claude.com/claude-code)
-skill that takes a raw claim and finds out whether it's true — pressure-tests it against real university research, with the words carefully aligned to what the
-evidence supports, and lands on an honest verdict you can actually defend. Optionally, it then renders that validated stance as a calm Threads post that leaves room for your own voice.
+skill that takes a raw claim through a discovery process — pressure-tests it against real university research to learn which parts hold up, which can be sharpened, and what better claim might be hiding inside, with the words carefully aligned to what the
+evidence supports. Optionally, it then renders that calibrated stance as a calm Threads post that leaves room for your own voice.
 
 Built and shared free by [neunsoft](https://neunsoft.com).
 
