@@ -1,8 +1,9 @@
 # claims — a free Claude skill by [Neunsoft](https://neunsoft.com)
 
-**The scientific method, as a content pipeline.** Take a raw hunch and turn it into a
-stance you can actually defend — backed by real university research, with every word
-aligned to what the evidence supports — then render it as a calm Threads post.
+**The scientific method, run on your intuition.** Take a raw hunch and find out if
+it's true — pressure-tested against real university research, with every word aligned
+to what the evidence supports, landing on a verdict you can actually defend. Then,
+optionally, render it as a calm Threads post.
 
 This repo is also a **Claude Code plugin marketplace**, so you can install the skill in
 two commands. Read the story behind it at **https://neunsoft.com/claims**.
@@ -53,11 +54,13 @@ cp -r plugins/claims/skills/claims ~/.claude/skills/claims
 ## What it does
 
 You bring an intuition — something you've been turning over, maybe even lived through.
-The skill walks six phases: **capture** a falsifiable claim → **research** real studies
+The skill validates it: **capture** a falsifiable claim → **research** real studies
 (including the ones that disagree with you) → **polish & align** every word to the
-evidence → **steelman** the counter-argument → **tie it to your business** → **render** a
-calm Threads post. It's peer review for a one-person business. The one inviolable rule:
-**the words never outrun the evidence.**
+evidence → **steelman** the counter-argument. That verdict is the product. Then, only
+if you want, an optional content step: **tie it to your business** → **render** a calm
+Threads post. Ask "why are you asking that?" at any question and you'll get a one-line
+answer tying it to the scientific method. It's peer review for a one-person business.
+The one inviolable rule: **the words never outrun the evidence.**
 
 Full skill documentation: [`plugins/claims/skills/claims/README.md`](plugins/claims/skills/claims/README.md)
 

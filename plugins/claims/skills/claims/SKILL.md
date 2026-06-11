@@ -1,15 +1,16 @@
 ---
 name: claims
-version: 1.5.0
+version: 2.0.0
 disable-model-invocation: true
 user-invocable: true
 description: |
-  Turn a raw hunch into a research-backed stance you can publish. Walks you from
-  "here's my hypothesis, however wild" through real university research, then
-  carefully aligns every claim to what the evidence supports, steelmans the
-  counter-argument so the piece is honest, ties it to your business, and renders it as
-  a calm Threads post (plus an optional short-form video idea). Peer review for a
-  one-person business — the scientific method, as a content pipeline.
+  Find out whether a hunch is actually true. Walks you from "here's my hypothesis,
+  however wild" through real university research, carefully aligns every claim to
+  what the evidence supports, and steelmans the counter-argument — landing on an
+  honest verdict: where you're right, where you're wrong, and to what degree. That
+  validated stance is the product. Optionally, afterward, tie it to your business and
+  render it as a calm Threads post (plus a short-form video idea). The scientific
+  method, run on your intuition.
   EXPLICIT INVOCATION ONLY: run this skill solely when the user explicitly invokes it
   by name (e.g. "/claims" or "run claims on this"). Never trigger it automatically or
   proactively — not on a stray "I have an idea," a research question, or a request to
@@ -25,11 +26,16 @@ allowed-tools:
 # Claims — from hunch to defensible stance
 
 A guided pipeline that takes one person's intuition and pressure-tests it against
-real research, then renders it into something publishable, without ever letting
-the words outrun the evidence.
+real research, without ever letting the words outrun the evidence. The deliverable is
+the **validated stance** — an honest verdict on where the hunch lands between clearly
+right and clearly wrong, and how strongly it can be said. Rendering it into content is
+an optional last step, offered only after the verdict is in; the stance stands on its
+own.
 
-**The promise to the user:** by the end, every claim in the final post is one they
-can defend if challenged. Nothing is overstated. The voice stays theirs.
+**The promise to the user:** by the end, they know what's actually true about their
+hunch, to what degree, and under which conditions — and every claim in the stance
+(and in any post made from it) is one they can defend if challenged. Nothing is
+overstated. The voice stays theirs.
 
 ## When to run this
 
@@ -53,7 +59,11 @@ the few moments where the user's explicit approval actually matters:
 - **At Phase 3 (polish)** — say plainly what you're about to do first ("I'll now align
   the wording to the evidence and tighten the claims"), then show the **before → after**
   so the user sees the evolution. Get explicit approval on the polished version.
-- **Before rendering** — confirm the business tie-in and the final stance.
+- **At the verdict** (after Phase 3, or Phase 4 if the steelman ran) — this is the
+  finish line. Deliver the validated stance, then offer the content step once,
+  lightly. Phases 5–6 run only on an explicit yes.
+- **Before rendering** (only if they said yes) — confirm the business tie-in and the
+  final stance.
 
 Each checkpoint needs an explicit go-ahead before you proceed; in between, no need to
 narrate intermediate artifacts. The aim is to show the *evolution* of one piece at a few
@@ -74,9 +84,21 @@ Rules:
 - `Phase N/6` is how the user reads progress; the one-word phase labels are
   Capture · Research · Polish · Steelman · Business · Render.
 - A ~5-word gloss in parentheses on what the current phase does; then `next: <label>`
-  (flag Phase 4 as `Steelman (optional)`). On the last phase use `next: done`.
+  (flag Phase 4 as `Steelman (optional)`; Phases 5–6 are the optional content step, so
+  the verdict checkpoint reads `next: done (content optional)`). On the last phase that
+  actually runs, use `next: done`.
 
 Show the progress line at every checkpoint, not just when asked.
+
+**Method glosses — explain briefly, only when asked.** Every question in the pipeline
+maps to a piece of the scientific method (the Phase 1 rungs: hypothesis · population ·
+prediction · measurement · control · falsifiability; Phase 2 is the experiment, Phase 3
+the calibration, Phase 4 the peer review). Don't lecture about this unprompted. But if
+the user asks why you're asking something — or how it connects — answer in **one or two
+plain sentences**, then return to the question. _"Why do I need a 'compared to what'?"
+→ "That's the control — without a baseline, a result can't show your way works better,
+only that something happened. So: what's the boring default it's up against?"_ Never
+let a gloss grow into a methods lesson.
 
 Keep your own voice **calm and neutral** throughout. You are a research assistant and
 an editor, not a hype machine. The user's voice is the product; yours is scaffolding.
@@ -300,13 +322,30 @@ survives, with a better engine under it.
 > user reframed the cause mid-run to _hierarchy hard-stops the people who'd remove the
 > work_. Re-tested, that version was well-supported. Same belief, sharper, now true.
 
-The point isn't to win the argument. It's that whatever publishes has already survived
-its own peer review, so when scrutiny arrives — and attention _is_ scrutiny — the
-replies become discussion instead of corrections.
+The point isn't to win the argument. It's that the stance has survived its own peer
+review — so if it ever publishes, scrutiny becomes discussion instead of corrections.
 
 ---
 
-## Phase 5 — Tie it to the business
+## The finish line — deliver the verdict, then offer content
+
+Once the stance is polished (and steelmanned, if the user said yes), **the validation
+is complete.** Deliver the verdict as the closing beat: where on the Rung-6 ruler the
+hunch landed, the calibrated stance, and how solid the ground is. The user now has
+what they came for — a belief they've actually tested.
+
+Then offer the rest once, lightly:
+
+> That's the verdict — you know where your hunch is true and how strongly you can say
+> it. Want to turn it into content? I'd connect it to your business and render a calm
+> Threads post, plus an optional video idea. Totally optional — the stance stands on
+> its own.
+
+If they decline, stop here. Phases 5–6 run only on an explicit yes.
+
+---
+
+## Phase 5 — Tie it to the business _(optional content step)_
 
 A stance is more useful when it connects to what the user is building.
 
@@ -327,7 +366,7 @@ the post be a point of view rather than a pitch.
 
 ---
 
-## Phase 6 — Render the artifact
+## Phase 6 — Render the artifact _(optional content step)_
 
 Render the stance into a **Threads post**. Then offer an **optional short-form video
 idea** as a suggestion, not a finished script.

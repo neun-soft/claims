@@ -1,7 +1,7 @@
 {
   "name": "claims",
-  "description": "Turn a raw hunch into a research-backed stance you can publish. The scientific method, as a content pipeline.",
-  "version": "1.5.0",
+  "description": "Find out if your hunch is true. The scientific method, run on your intuition: testable claim, real research, honest verdict — content optional.",
+  "version": "2.0.0",
   "author": {
     "name": "Neunsoft",
     "url": "https://neunsoft.com"
